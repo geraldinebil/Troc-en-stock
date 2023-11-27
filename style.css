@@ -22,7 +22,7 @@ a {
     padding: 10px;
 }
 
-h2{
+h2 {
     display: inline-block;
     margin-top: 80px;
     font-size: 40px;
@@ -30,6 +30,14 @@ h2{
     color: #8a0967;
 
 }
+
+p{
+    text-align: center;
+    margin: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 /* HEADER */
 
 header {
@@ -63,4 +71,38 @@ header nav ul li a {
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 20px;
+}
+
+/* SECTION MAIN-IMAGE */
+.image {
+    height: 380px;
+    background: url(images/portrait-fille-afro-americaine-touchee-heureuse-tenant-main-coeur-disant-merci-smi_1258-180461.jpg) center no-repeat ;
+
+    
+}
+
+#main-image h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+    margin-bottom: 1px;
+    color: #444;
+}
+
+.button-1 {
+    display: block;
+    width: 100px;
+    height: 30px;
+    background-color: #f9bcf2;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px auto;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-1:hover{
+    background: #0298dd;
 }
