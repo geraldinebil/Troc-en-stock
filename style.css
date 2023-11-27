@@ -1,0 +1,66 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #8a0967;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h2{
+    display: inline-block;
+    margin-top: 80px;
+    font-size: 40px;
+    margin-left: 120px;
+    color: #8a0967;
+
+}
+/* HEADER */
+
+header {
+    height: 200px;
+    background-color: rgb(249, 248, 248);
+}
+
+header img {
+    width: 280px;
+    float: left;
+    padding-bottom: 80px;
+    margin-left: 50px;
+}
+
+
+header nav {
+    float: right;
+    margin-top: 100px;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
