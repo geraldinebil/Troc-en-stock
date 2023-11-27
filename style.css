@@ -31,13 +31,33 @@ h2 {
 
 }
 
-p{
+.text-main{
     text-align: center;
-    margin: 40px;
-    font-size: 25px;
+    margin: 15px;
+    font-size: 22px;
     font-weight: bold;
+    padding: 20px;
 }
 
+p{
+    font-size: 22px;
+    font-style: italic;
+}
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h4 {
+    font-size: 30px;
+    color: #000;
+}
+
+a :hover{
+    color: #8a0967;
+
+}
 /* HEADER */
 
 header {
@@ -75,10 +95,7 @@ header nav ul li a {
 
 /* SECTION MAIN-IMAGE */
 .image {
-    height: 380px;
-    background: url(images/portrait-fille-afro-americaine-touchee-heureuse-tenant-main-coeur-disant-merci-smi_1258-180461.jpg) center no-repeat ;
-
-    
+    background: url(images/portrait-fille-afro-americaine-touchee-heureuse-tenant-main-coeur-disant-merci-smi_1258-180461.jpg) center no-repeat ;    
 }
 
 #main-image h2 {
@@ -94,15 +111,54 @@ header nav ul li a {
     display: block;
     width: 100px;
     height: 30px;
-    background-color: #f9bcf2;
+    background-color: #830174;
     color: #ffffff;
     font-size: 20px;
-    margin: 10px auto;
+    margin: 20px auto;
     line-height: 25px;
     text-align: center;
     border-radius: 10px;
 }
 
 .button-1:hover{
-    background: #0298dd;
+    background: #e7fb51;
+}
+
+/* STEPS */
+#steps ul {
+    margin: 80px 0;
+
+}
+
+#steps ul li {
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#steps h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#steps p {
+    margin-bottom: 20px;
+}
+
+#step-1 {
+    background: url(images/icone-femme.png) no-repeat top center;
+    margin-left: 250px;
+    padding: 20px;
+}
+
+#step-2 {
+    background: url(images/icone-homme.png) no-repeat top center;
+    padding: 20px;
+}
+
+#step-3 {
+    background: url(images/icone-enfant.png) no-repeat top center;
+    padding: 20px;
 }
